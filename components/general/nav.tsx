@@ -2,12 +2,7 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <nav className="fixed z-1 flex w-full items-center justify-between p-8">
-      <div>
-        <Link href="/" className="text-xl font-semibold uppercase">
-          Silhouette
-        </Link>
-      </div>
+    <nav className="fixed z-1 flex w-full items-center justify-end p-8">
       <div className="flex gap-x-8">
         <Link href={"/"} className="text-sm font-semibold uppercase">
           Index
